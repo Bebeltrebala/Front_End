@@ -1,0 +1,115 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  display: grid;
+  justify-content: center;
+}
+.mine-box {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding: 3rem;
+  grid-column: 1;
+  background-color: white;
+  justify-content: center;
+  align-items: end;
+  font-size: 1.2rem;
+}
+
+.button {
+  background-color: #ee2211;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.sub-container {
+  margin-top: 50px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu-item1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+.menu-item2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+.menu-item3 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+.menu-item4 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.titulo-descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.titulo-descricao strong {
+  font-size: 1.25rem;
+}
+
+.mine-box3{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: end;
+  padding: 1.75rem;
+}
+.info2 {
+  color: #c6c6c6;
+  font-size: 64px;
+  font-weight: bold;
+}
+.container-lista{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Align movimenta pra cima e para baixo, justify direita ou esquerda. */
+  padding: 5rem;
+  background-color: white;
+}
+.mine-box2 {
+  background-color: white;
+  display: flex;
+  gap: 1.25rem;
+  align-items: start;
+  justify-content: start;
+}
+
+.titulo-descricao p{
+  font-size: 20px;
+}

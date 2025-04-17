@@ -1,0 +1,119 @@
+/* A ordem importa, o que vem depois subscreve o de antes 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  font-size: 12px;
+}
+ Selecionando vários elementos h1, p, a
+
+h1,
+h2,
+h3 {
+  color: red;
+}
+
+ Selecionando dentro do elemento, exemplo: todo A contido em P
+
+p a {
+  color: rgb(213, 84, 84);
+}
+ Selecionar o id da TAG: #id 
+
+#logo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+ Selecionar a classe da TAG: .
+tag. A mesma classe pode ser utilizada em vários elementos  
+
+.text {
+  font-family: cursive;
+  background-color: rgb(0, 0, 0);
+  color: #8844ee;
+}
+   
+ É possível colocar várias classes em um mesmo elemento ! 
+
+
+.text2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: underline; sublinhando 
+
+}
+
+.text2_color{
+  color: #8844ee;
+
+}
+
+.text2_size{
+  font-size: 10px;
+
+}
+*/
+
+.box {
+  display: grid;
+}
+
+.mine-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.titulo{
+    grid-column: 1/ -1;
+}
+
+
+.preco {
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.buy-botton {
+  background-color: #a8f;
+  padding: 10px 20px;
+  color: #103;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 20px;
+
+}
+.mine-box2{
+  align-self: start;
+  justify-self: start;
+  display:grid ;
+  place-items: start;
+  gap: 20px;
+}
+/* Estilos Gerais */
+
+h1 {
+  text-align: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+}
+h1,
+p {
+  margin: 0px;
+}
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+p,
+span {
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
