@@ -1,0 +1,11 @@
+:root {
+  --shadow-bonitinha: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --borda-bonitinha: 16px;
+  --transicao: transform 0.3s ease, box-shadow 0.3s ease;
+  /* hover abaixo */
+  --elevar: translateY(-8px);
+  --shadow-hover: 0 12px 25px rgba(0, 0, 0, 0.12);
+  --primary-color: #ff1b1b;
+  --second-color: #890202;
+  --third-color: #c0282e;
+}
